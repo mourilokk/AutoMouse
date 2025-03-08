@@ -2,7 +2,7 @@ import pyautogui
 
 pyautogui.moveTo(1105, 447, 1)
 
-for i in range(10000):
+for i in range(10000000):
     if(pyautogui.position(1105, 447)):
         pyautogui.moveTo(1200, 800, 1)
         
